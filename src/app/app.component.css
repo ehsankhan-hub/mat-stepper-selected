@@ -1,0 +1,34 @@
+p {
+  font-family: Lato;
+}
+ ::ng-deep .mat-step-header[aria-selected='true'] {
+  background-color: #00a9ce;
+  border-radius: 0px;
+  width: 90px;
+  font-weight: 10px;
+}
+  /* ::ng-deep .mat-step-label.mat-step-label-active.mat-step-label-selected {
+    color: #fff;
+  
+}  */
+::ng-deep .mat-stepper-horizontal-line {
+  display: none;
+  /* border-top-color: rgba(0, 0, 0, .12); */
+}
+
+::ng-deep .mat-horizontal-stepper-header-container {
+  background-color: palegoldenrod;
+  border-radius: 10px;
+}
+
+::ng-deep .mat-step-header .mat-step-icon-state-edit {
+  display: none;
+  background-color: #3f51b5;
+  color: #fff;
+}
+
+:host ::ng-deep .mat-step-icon-selected {
+  color: rgb(128, 0, 28); 
+}
+
+
